@@ -1,0 +1,47 @@
+h1 {
+  color: #95c2db;
+  font-weight: bold;
+  font-size: 6vmin;
+}
+
+.Inputs {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 2vmin;
+}
+
+div {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+input {
+  font-size: 3vmin;
+  background-color: #363636;
+  text-align: center;
+  color: #95c2db;
+  font-weight: bold;
+  width: 40%;
+}
+p {
+  color: #db973b;
+  font-size: 3vmin;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.myButton {
+  font-size: 4vmin;
+  font-weight: bold;
+}
